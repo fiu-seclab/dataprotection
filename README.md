@@ -1,197 +1,409 @@
 # Security Questionnaire
 
-This repository contains the **Security Questionnaire** survey. Below is the full structure of the survey, including **sections, questions, answer types, and possible answers**.
+This repository contains the **Security Questionnaire** survey. Below is the full structure of the survey, including **sections, questions, answer types, and all possible answers explicitly enumerated**.
 
 ---
 
 ## Section 1: Identification
-- **Prolific ID**  
-  *Type:* `text` (required)  
+1. **Prolific ID**  
+   *Type:* `text` (required)  
 
 ---
 
 ## Section 2: Demographics
-- **What is your sex?**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* Female, Male, Prefer not to say, Other (specify)  
+2. **What is your sex?**  
+   *Type:* `radiogroup` (required)  
+   *Choices:*  
+   1. Female  
+   2. Male  
+   3. Prefer not to say  
+   4. Other (specify)  
 
-- **In which age group do you belong?**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* <18, 18–24, 25–34, 35–44, 45–54, 55+  
+3. **In which age group do you belong?**  
+   *Type:* `radiogroup` (required)  
+   *Choices:*  
+   1. <18  
+   2. 18–24  
+   3. 25–34  
+   4. 35–44  
+   5. 45–54  
+   6. 55+  
 
-- **Which income bracket best represents your household income?**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* <$25,000, $25,000–$50,000, $50,001–$75,000, $75,001–$100,000, $100,001–$200,000, $200,001+  
+4. **Which income bracket best represents your household income?**  
+   *Type:* `radiogroup` (required)  
+   *Choices:*  
+   1. <$25,000  
+   2. $25,000–$50,000  
+   3. $50,001–$75,000  
+   4. $75,001–$100,000  
+   5. $100,001–$200,000  
+   6. $200,001+  
 
-- **What is your highest level of education completed?**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* None, High school diploma, Some College (no degree), Technical Certification, Associate Degree, Bachelor’s, Master’s, Ph.D., Prefer not to say  
+5. **What is your highest level of education completed?**  
+   *Type:* `radiogroup` (required)  
+   *Choices:*  
+   1. None  
+   2. High school diploma  
+   3. Some College, No Degree  
+   4. Technical Certification (e.g: mechanic, carpentry, etc.)  
+   5. Associate Degree  
+   6. Bachelor's  
+   7. Master's  
+   8. Ph.D  
+   9. Prefer not to say  
 
-- **Which best describes your profession or area of study?**  
-  *Type:* `checkbox` (required, multiple allowed)  
-  *Choices:* Architecture & Engineering, Arts & Entertainment, Business & Administration, Communications, Community & Social Services, Education, Science & Technology, Installation & Maintenance, Farming & Forestry, Health & Medicine, Law, Not in school, Other (specify)  
+6. **Which best describes your profession or area of study?**  
+   *Type:* `checkbox` (required, multiple allowed)  
+   *Choices:*  
+   1. Architecture and Engineering  
+   2. Arts, culture, and entertainment  
+   3. Business, management, and administration  
+   4. Communications  
+   5. Community and social services  
+   6. Education  
+   7. Science and technology  
+   8. Installation, repair, and maintenance  
+   9. Farming, fishing, and forestry  
+   10. Health and medicine  
+   11. Law  
+   12. I am not in school at the moment  
+   13. Other (specify)  
 
-- **What is your current employment status?**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* Employed full-time, Employed part-time, Unemployed, Student, Student + employed full-time, Student + employed part-time, Retired, Homemaker  
+7. **What is your current employment status?**  
+   *Type:* `radiogroup` (required)  
+   *Choices:*  
+   1. Employed full-time  
+   2. Employed part-time  
+   3. Unemployed  
+   4. Student  
+   5. Student + employed full-time  
+   6. Student + employed part-time  
+   7. Retired  
+   8. Homemaker  
 
 ---
 
 ## Section 3: Education & Interests
-- **Which degree are you currently pursuing?**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* Undergraduate, Graduate, Certificate, Other (specify)  
+8. **Which degree are you currently pursuing?**  
+   *Type:* `radiogroup` (required)  
+   *Choices:*  
+   1. Undergraduate  
+   2. Graduate  
+   3. Certificate Programs  
+   4. Other (specify)  
 
-- **Have you taken courses in any of the following subjects?**  
-  *Type:* `checkbox` (required)  
-  *Choices:* Cybersecurity, Computer Science, Information Technology, None of these  
+9. **Have you taken courses in any of the following subjects?**  
+   *Type:* `checkbox` (required)  
+   *Choices:*  
+   1. Cybersecurity  
+   2. Computer Science  
+   3. Information Technology  
+   4. None of these  
 
-- **Have you been employed in any of the following areas?**  
-  *Type:* `checkbox` (required)  
-  *Choices:* Cybersecurity, Computer Science, Information Technology, None of these  
+10. **Have you been employed in any of the following areas?**  
+    *Type:* `checkbox` (required)  
+    *Choices:*  
+    1. Cybersecurity  
+    2. Computer Science  
+    3. Information Technology  
+    4. None of these  
 
-- **Do you take interest in cybersecurity, computer science, or IT?**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* Yes, No  
+11. **Do you take interest in cybersecurity, computer science, or information technology?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. Yes  
+    2. No  
 
-- **Which of the following media outlets have you visited during the last week?**  
-  *Type:* `checkbox` (required)  
-  *Choices:* Threatpost, Dark Reading, Wired, PC World, CNET, CIO, None of these  
+12. **Which of the following media outlets have you visited during the last week?**  
+    *Type:* `checkbox` (required)  
+    *Choices:*  
+    1. Threatpost  
+    2. Dark Reading  
+    3. Wired  
+    4. PC World  
+    5. CNET  
+    6. CIO  
+    7. None of these  
 
-- **Which ad-blocker do you use?**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* I don’t use any, Ghostery, Ad-blocker  
+13. **Which ad-blocker do you use?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. I don't use any adblocker  
+    2. Ghostery  
+    3. Ad-blocker  
 
-- **Which Password Manager do you use?**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* None, LastPass, NordPass, 1Password, Other (specify)  
+14. **Which Password Manager do you use?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. I don't have a password manager  
+    2. LastPass  
+    3. NordPass  
+    4. 1Password  
+    5. Other (specify)  
 
-- **How important is backup security to you?**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* Very important, Somewhat important, Somewhat unimportant, Not important at all, I don’t know what backup security is  
+15. **How important is backup security to you?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. Very important  
+    2. Somewhat important  
+    3. Somewhat unimportant  
+    4. Not important at all  
+    5. I don't know what backup security is  
 
-- **Which operating system is your main OS?**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* Windows, Unix-based (Ubuntu, Fedora, etc.), MacOS, Other (specify)  
+16. **Which operating system is your main operating system?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. Windows OS (Windows7, 8, or 10)  
+    2. Unix-based OS (Ubuntu, Fedora, Redhat, etc)  
+    3. MacOS  
+    4. Other (specify)  
 
-- **Rate your cybersecurity skills (0–5).**  
-  *Type:* `rating` (required)  
-  *Scale:* Zero Experience → Cybersecurity Maestro  
+17. **Give a score to your current cybersecurity skills.**  
+    *Type:* `rating` (required)  
+    *Scale:* Zero Experience → Cybersecurity Maestro  
 
 ---
 
 ## Section 4: Technical Knowledge
-- **Which programming languages are you familiar with?**  
-  *Type:* `checkbox` (required, multiple allowed)  
-  *Choices:* Java, JavaScript, C/C++, C#, Python, HTML, PHP, Perl, Ruby, SQL, Assembly, None  
+18. **Which of the following programming languages are you familiar with? (More than a year of experience)**  
+    *Type:* `checkbox` (required)  
+    *Choices:*  
+    1. Java  
+    2. JavaScript  
+    3. C/C++  
+    4. C#  
+    5. Python  
+    6. HTML  
+    7. PHP  
+    8. Perl  
+    9. Ruby  
+    10. SQL  
+    11. Assembly  
+    12. None of these  
 
-- **Buffer overflow attacks are most likely in which language?**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* Java, Python, C/C++, I don’t know  
+19. **What programming language is the most susceptible to buffer overflow attacks?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. Java  
+    2. Python  
+    3. C/C++  
+    4. I don't know  
 
-- **Which cyber attacks are you familiar with?**  
-  *Type:* `checkbox` (required)  
-  *Choices:* MitM, Phishing, SQL injection, XSS, Ransomware, DoS/DDoS, CSRF, None  
+20. **Which of the following cyber attacks are you familiar with?**  
+    *Type:* `checkbox` (required)  
+    *Choices:*  
+    1. Man-in-the-middle (MitM)  
+    2. Phishing  
+    3. SQL injection  
+    4. Cross-site-scripting (XSS)  
+    5. Ransomware  
+    6. Denial-of-service (DoS)/Distributed Denial-of-Service (DDoS)  
+    7. CSRF  
+    8. None of these  
 
-- **SQL injection occurs because _____ has vulnerabilities.**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* Database Server, Browser, Web Application, I don’t know  
+21. **SQL injection can happen because _____ has vulnerabilities.**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. Database Server  
+    2. Browser  
+    3. Web Application  
+    4. I don't know  
 
-- **Cross-site scripting is a ______ attack.**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* Server-side, Client-side, Database, I don’t know  
+22. **Cross site scripting is a ______ attack.**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. Server side  
+    2. Client side  
+    3. Database  
+    4. I don't know  
 
-- **ASLR is a defense mechanism against ______.**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* XSS, Buffer Overflow, DDoS, I don’t know  
+23. **ASLR is a defense mechanism against ______.**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. Cross site scripting (XSS)  
+    2. Buffer Overflow  
+    3. Distributed Denial of Service (DDoS)  
+    4. I don't know  
 
-- **When was the last time you used SSH?**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* Within a week, Within a month, Within 6 months, Within a year, Never  
+24. **When was the last time you used SSH to connect to a remote server?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. Within the last week  
+    2. Within the last month  
+    3. Within the last 6 months  
+    4. Within the last year  
+    5. I have never used SSH  
 
-- **Consider the following command where the user is connecting to a remote server: 'ssh user1-remotehost -p 12345'. Is something wrong with syntax used?**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* [Yes, the first argument should be scp instead of ssh], [Yes, the separation between between the @ character instead of the - character] , [Yes, you cannot specify the port with this sort of connection], [No, there is nothing wrong with the syntax in this command], [I don't know SSH] 
+25. **Consider the following command: 'ssh user1-remotehost -p 12345'. Is something wrong?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. Yes, the first argument should be scp instead of ssh  
+    2. Yes, the separation should be with @ instead of -  
+    3. Yes, you cannot specify the port this way  
+    4. No, there is nothing wrong with the syntax  
+    5. I don't know SSH  
 
-- **What does ransomware do?**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* Remote control, DDoS automation, Encrypts data until ransom, Tracks browsing  
+26. **Ransomware does which of the following?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. Gives attackers remote control of the victim's machine  
+    2. Is used for task automation in DDoS attacks  
+    3. Blocks access to victim's data until ransom is paid  
+    4. Tracks browsing activities for ads  
 
 ---
 
 ## Section 5: Ransomware
-- **Have you been a ransomware victim?**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* Victim + paid, Victim + not paid, Not a victim, Don’t know  
+27. **Have you been a victim of a ransomware attack?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. Yes, paid ransom  
+    2. Yes, did not pay ransom  
+    3. No, not a victim  
+    4. I don't know  
 
-- **Reason for not paying ransom?**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* Not worth it, Had backup, Outside recovery, Never a victim  
+28. **If yes and did not pay ransom, why not?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. Ransom not worth recovery  
+    2. Had backup  
+    3. Outside recovery available  
+    4. Never a victim  
 
-- **Importance of ransomware protection (1–5).**  
-  *Type:* `rating` (required)  
+29. **Importance of ransomware protection (1–5).**  
+    *Type:* `rating` (required)  
 
-- **How likely are you to be targeted?**  
-  *Type:* `dropdown` (required)  
-  *Choices:* Very likely, Somewhat likely, Somewhat unlikely, Very unlikely, Don’t know  
+30. **How likely are you to be targeted by ransomware?**  
+    *Type:* `dropdown` (required)  
+    *Choices:*  
+    1. Very likely  
+    2. Somewhat likely  
+    3. Somewhat unlikely  
+    4. Very unlikely  
+    5. I don't know  
 
-- **Would you pay a ransom if no backup?**  
-  *Type:* `radiogroup` (required)  
-  *Choices:* Definitely No, Yes (<$1000), Yes (<$500), Yes (installments)  
+31. **Would you pay a ransom fee if no backup?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. Definitely No  
+    2. Yes, if fee < $1000  
+    3. Yes, if fee < $500  
+    4. Yes, if installments allowed  
 
 ---
 
 ## Section 6: Antivirus & Backup
-- **Do you use antivirus on your PC? (duration)**  
-  *Type:* `radiogroup` (required)  
+32. **Do you use antivirus on your PC? If so, how long?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. Yes, less than 6 months  
+    2. Yes, over 1 year  
+    3. Yes, over 5 years  
+    4. Yes, over 10 years  
+    5. No  
 
-- **Do you currently have ransomware protection installed?**  
-  *Type:* `radiogroup` (required)  
+33. **Do you currently have ransomware protection installed?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. Yes  
+    2. No and don't plan to  
+    3. No but plan to  
+    4. I don't know  
 
-- **Do you use backup services on your PC? (duration)**  
-  *Type:* `radiogroup` (required)  
+34. **Do you use backup services on your PC? If so, how long?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. Yes, over 1 month  
+    2. Yes, over 6 months  
+    3. Yes, over 1 year  
+    4. Yes, over 5 years  
+    5. Yes, over 10 years  
+    6. No  
 
-- **What tier of backup security service do you use?**  
-  *Type:* `radiogroup` (required)  
+35. **What tier of backup security service do you use?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. Free version  
+    2. Paid, <50 GB  
+    3. Paid, 50-100 GB  
+    4. Paid, 100-250 GB  
+    5. Paid, 250-500 GB  
+    6. Paid, 500-1000 GB  
+    7. Paid, >1 TB  
+    8. None  
 
-- **Which backup services have you used?**  
-  *Type:* `checkbox` (required)  
+36. **Which backup services have you used?**  
+    *Type:* `checkbox` (required)  
+    *Choices:*  
+    1. Acronis True Image  
+    2. Paragon Backup and Recovery  
+    3. NovaBackup  
+    4. EaseUS ToDo Backup  
+    5. Malwarebytes Secure Backup  
+    6. Heilig Defense RansomOff  
+    7. Google One  
+    8. Microsoft OneDrive  
+    9. Dropbox  
+    10. iCloud  
+    11. None of these  
 
-- **Automated vs. manual backups.**  
-  *Type:* `radiogroup` (required)  
+37. **Automated vs. manual backups?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. Prefer only automated  
+    2. Prefer only manual  
+    3. Prefer both  
+    4. No interest in backup security  
 
-- **Preferred backup method.**  
-  *Type:* `radiogroup` (required, with Other)  
+38. **What is your preferred backup method?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. I don't use backup security  
+    2. Full  
+    3. Incremental  
+    4. Differential  
+    5. Individual files/folders  
+    6. I don't know what they are  
+    7. Other (specify)  
 
-- **Backup provider preference.**  
-  *Type:* `radiogroup` (required)  
+39. **Preferred backup provider?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. First-party (Apple, Google, Microsoft, etc.)  
+    2. Third-party  
+    3. No preference (only performance matters)  
 
 ---
 
 ## Section 7: Data Value & Protection
-- **How much is your data worth (in $)?**  
-  *Type:* `text (numeric)` (required)  
+40. **How much is your data worth in dollars?**  
+    *Type:* `text (numeric)` (required)  
 
-- **How much would you pay per month for guaranteed protection? Why?**  
-  *Type:* `comment` (required)  
+41. **How much are you willing to pay per month for guaranteed protection? Why?**  
+    *Type:* `comment` (required)  
 
-- **Would you enroll in a $200/year data protection plan?**  
-  *Type:* `radiogroup` (required)  
+42. **Would you enroll in a $200/year data protection plan?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. Yes  
+    2. No  
 
-- **Explain your response.**  
-  *Type:* `comment` (required)  
+43. **Please explain your response.**  
+    *Type:* `comment` (required)  
 
 ---
 
 ## Section 8: Security Concepts
-- **What does “Social Engineering” mean to you?**  
-  *Type:* `comment` (required)  
+44. **What you think the term Social Engineering means?**  
+    *Type:* `comment` (required)  
 
-- **Have you taken cybersecurity training workshops?**  
-  *Type:* `radiogroup` (required, with Other)  
-  *Choices:* No, Yes (specify)  
+45. **Have you taken any cybersecurity training workshops before?**  
+    *Type:* `radiogroup` (required)  
+    *Choices:*  
+    1. No  
+    2. Yes (specify)  
 
 ---
 
 ## Completion
-Participants are thanked and redirected to Prolific for submission.
+- Participants are thanked and redirected to Prolific for submission.
