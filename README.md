@@ -109,9 +109,9 @@ This repository contains the **Security Questionnaire** survey. Below is the ful
   *Type:* `radiogroup` (required)  
   *Choices:* Within a week, Within a month, Within 6 months, Within a year, Never  
 
-- **SSH command syntax validation.**  
+- **Consider the following command where the user is connecting to a remote server: 'ssh user1-remotehost -p 12345'. Is something wrong with syntax used?**  
   *Type:* `radiogroup` (required)  
-  *Choices:* Multiple options (syntax errors, correct, or don’t know SSH)  
+  *Choices:* [Yes, the first argument should be scp instead of ssh], [Yes, the separation between between the @ character instead of the - character] , [Yes, you cannot specify the port with this sort of connection], [No, there is nothing wrong with the syntax in this command], [I don't know SSH] 
 
 - **What does ransomware do?**  
   *Type:* `radiogroup` (required)  
